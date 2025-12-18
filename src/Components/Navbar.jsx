@@ -12,11 +12,12 @@ function Navbar() {
     <nav className="fixed w-full top-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow z-50 transition-colors duration-300">
     <div className="max-w-7xl mx-auto px-6 py-4 flex justify-center items-center relative"> {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-medium dark:text-white">
-          <a className="hover:text-[#F5C16C] transition-colors" href="#home">Home</a>
-          <a className="hover:text-[#F5C16C] transition-colors" href="#about">About</a>
-          <a className="hover:text-[#F5C16C] transition-colors" href="#skills">Skills</a>
-          <a className="hover:text-[#F5C16C] transition-colors" href="#projects">Projects</a>
-          <a className="hover:text-[#F5C16C] transition-colors" href="#contact">Contact</a>
+          <li><a href="#home" className="text-black text-xl md:text-2xl font-semibold">Home</a></li>
+           <li><a href="#about" className="text-black text-xl md:text-2xl font-semibold">About</a></li>
+           <li><a href="#skills" className="text-black text-xl md:text-2xl font-semibold">Skills</a></li>
+            <li><a href="#projects" className="text-black text-xl md:text-2xl font-semibold">Projects</a></li>
+          <li><a href="#contact" className="text-black text-xl md:text-2xl font-semibold">Contact</a></li>
+         
         </ul>
 
         {/* Controls (centered on mobile) */}
